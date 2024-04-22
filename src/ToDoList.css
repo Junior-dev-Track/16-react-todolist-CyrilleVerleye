@@ -1,0 +1,33 @@
+.todo {
+	display: flex;
+	flex-direction: column;
+}
+
+.todo__title {
+	text-align: left;
+	font-size: 50px;
+}
+
+.todo__write {
+	margin-bottom: 10px;
+	width: 40%;
+	padding: 7px;
+}
+
+.todo__submit {
+	width: 20%;
+	background-color: blue;
+	border: none;
+	font-size: 20px;
+	padding: 7px;
+	border-radius: 8%;
+}
+
+.todo__list {
+	padding: 0;
+	list-style: none;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
