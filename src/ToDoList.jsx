@@ -43,14 +43,14 @@ const TodoList = () => {
         name='todo' 
         className='todo__write' 
         placeholder='Add a new todo'
-        value={newTodo} // Bind the value of the input field to the newTodo state
-        onChange={handleInputChange} // Handle changes in the input field
+        value={newTodo} 
+        onChange={handleInputChange} 
       />
       <input 
         type="button" 
         value="Add Todo" 
         className="todo__submit"
-        onClick={handleAddTodo} // Handle click on the "Add Todo" button
+        onClick={handleAddTodo} 
       />
       <ul className="todo__list">
         {todos.map(todo => (
